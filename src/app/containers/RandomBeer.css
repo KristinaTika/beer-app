@@ -1,0 +1,11 @@
+#random-container {
+    min-height: 86vh;
+}
+
+#random-button {
+    text-align: center;
+}
+
+#random-button>button {
+    background-color: #7C4DFF;
+}

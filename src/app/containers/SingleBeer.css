@@ -1,0 +1,30 @@
+#fav-beer-div {
+    display: flex;
+    justify-content: space-around;
+    line-height: 25px;
+}
+
+#fav-beer-div div h2, h4, p {
+    text-align: center;
+    padding: 10px;
+}
+
+#fav-beer-div div {
+    margin: 50px;
+}
+
+#fav-beer-div div ol, ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#hops, #malt, #yeast {
+    list-style: none;
+}
+
+#hops li, #malt li {
+    margin: 10px;
+    
+}

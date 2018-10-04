@@ -1,0 +1,22 @@
+form {
+    text-align: center;
+    margin: 20px;
+}
+
+input {
+    width: 75%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 1px solid #009688;
+}
+
+#search-list-div {
+    min-height: 85vh;
+}
+
+#no-results {
+    margin-top: 150px;
+    margin-left: 200px;
+}
+

@@ -1,0 +1,22 @@
+#beer-item-li {
+    list-style: none;
+    padding: 15px;
+    text-align: center;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#beer-item-li a {
+    background-color: #7C4DFF;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.fav-description {
+    margin-bottom:15px;
+}

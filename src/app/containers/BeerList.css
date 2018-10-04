@@ -1,0 +1,25 @@
+.list-beers {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    overflow: auto;
+    resize: horizontal;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    text-align: center;
+    margin-top: 20px;
+    list-style: none;
+}
+
+.list-beers li {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.list-beers li:hover{
+    background-color: #B2DFDB;
+}
+
+#beer-list-div {
+    min-height: 85vh;
+}
